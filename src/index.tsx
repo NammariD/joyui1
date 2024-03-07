@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import { StyledEngineProvider, CssVarsProvider } from '@mui/joy/styles';
 import BasicButtons from './Demo';
 import Demo from './Demo2';
-import StepsSlider from './component.tsx';
+import StepsSlider from './component';
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   <React.StrictMode>
